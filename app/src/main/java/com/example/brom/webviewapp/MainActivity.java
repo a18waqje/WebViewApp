@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Ladda sida i webview
         //webView.loadUrl("http://wwwlab.iit.his.se/a18waqje/Mobileapplicationdesign/App_prototyp/inde.html");
-        webView.loadUrl("");
+        webView.loadUrl("file:///android_asset/about.html");
         // 1. Create a WebView element in the layout file content_main.xml
         // -- Commit and push to your github fork
         // 2. Give the WebView element created in step 1 ID "my_webview"
